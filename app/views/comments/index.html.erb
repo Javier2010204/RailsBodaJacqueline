@@ -1,0 +1,31 @@
+  <div id="Principal">
+    <div id="card-comentarios"class="animate__animated animate__backInDown animate__delay-1s">
+      <div id="div-comentarios">
+
+        <i class=" margin-top fas fa-comments letra-blanca tamano-85 margin-bottom margin-top"></i>
+        <p class=" tamano-grande letra-blanca margin-0 paddig ">Una Boda se vive tres veces, 
+        </p>
+        <p class="tamano-grande letra-blanca margin-0 paddig ">Al Soñarla, al Celebrarla, al Recordarla
+        </p>
+        <p class="tamano-grande letra-blanca margin-0 paddig "> Dejanos tus Deseos</p>
+
+        <section class="section">
+          <%= form_with(model: @comment, remote: true) do |form| %>
+              <%= form.text_field :name, id:'nombres', placeholder: 'Tu nombre aquí', class:"casillas"%>
+
+            <div class="field">
+              <%= form.text_area :message, class:'casillas', id:"comentarios", placeholder:"Deja tu mensaje aquí", rows:5%>
+            </div>
+
+            <div class="actions">
+              <%= form.submit 'Enviar', class:'boton letra-molde tamano17' %>
+            </div>
+          <% end %>
+
+        </section>
+    </div>
+  </div>
+</div>
+<div id="JyF">
+<p class="letra-molde tamano-chiquito">Desarrollado por Fátima Ramazzini</p>
+</div>

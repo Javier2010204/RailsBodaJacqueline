@@ -1,0 +1,111 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin-left: 0in;
+    font-family: 'Great Vibes', cursive;
+    background-image: url(https://cdn03.lolaflora.com/bonnygift/lf159-1/XL/lf159-1-8d82b90086b918e-a28b67d3.jpg);
+    background-size: cover;
+}
+
+.letra-molde{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.letra-blanca{
+    color: white;
+}
+
+.paddig{
+    padding: 4px;
+}
+
+.tamano-85{
+    font-size: 85px;
+}
+
+.tamano-grande{
+    font-size: 48px;
+}
+
+.tamano-mediano{
+    font-size: 40px;
+}
+
+.tamano-pequeno{
+    font-size: 25px;
+}
+
+.tamano-mediopequeno{
+    font-size: 18px;
+}
+
+.tamano-chiquito{
+    font-size: 12px;
+}
+
+.margin-0{
+    margin: 0in;
+}
+
+.margin-bottom{
+    margin-bottom: 50px;
+}
+
+.margin-top{
+    margin-top: 35px;
+}
+
+#Principal{
+    height:713px;
+    width:100%;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card-regalo{
+    height: 650px;
+    width: 1000px;
+    position: relative;
+    background-image: linear-gradient(#45737b, #23393d);
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: white;
+}
+
+#div-regalo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#JyF{
+    height: 25px;
+    width: 100%;
+    background-color: #23393d ;
+    border-bottom: 1px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    bottom: 1px;
+}
+
+@media screen and (max-width: 500px){
+
+    #card-regalo{
+        max-height: 100vh;
+        max-width: 95%;
+        padding: 30px;
+        text-align: center;
+        font-size: 36px;
+    }
+
+}

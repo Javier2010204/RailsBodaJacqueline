@@ -1,0 +1,25 @@
+<div id="Principal">
+  <div id="card-comentarios"class="animate__animated animate__backInDown animate__delay-1s">
+    <div id="div-comentarios">
+      <h2 class="tamano-grande letra-blanca margin-0">Ingreso</h2>
+      <p class="letra-molde letra-blanca" id="texto-login">Bienvenido a la boda de Jacqueline & Luis, por favor ingresa tus datos para ingresar al evento online</p>
+
+      <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+        <div class="field">
+          <%= f.email_field :email, id:'nombres', placeholder: 'Tu usuario aquí', class:"casillas" %>
+        </div>
+
+        <div class="field">
+          <%= f.number_field :password, class:'casillas', id:"comentarios", placeholder:"Ingresa tu número de télefono aquí"%>
+        </div>
+
+        <div class="actions">
+          <%= f.submit "Ingresar", class:'boton letra-molde tamano17' %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+
+

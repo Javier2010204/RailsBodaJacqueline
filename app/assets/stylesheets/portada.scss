@@ -1,0 +1,100 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin-left: 0in;
+    font-family: 'Great Vibes', cursive;
+    background-image: url(https://cdn03.lolaflora.com/bonnygift/lf159-1/XL/lf159-1-8d82b90086b918e-a28b67d3.jpg);
+    background-size: cover;
+}
+
+.borde{
+    border: white;
+    border-style: solid;
+    padding: 5px;
+}
+
+.tamano-chiquito{
+    font-size: 12px;
+}
+
+.letra-molde{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.txt-non{
+    text-decoration: none;
+}
+
+.color-blanco{
+    color: rgb(255, 254, 254);
+}
+
+.letra-pequena{
+    font-size: 25px;
+}
+
+.margin-bottom{
+    margin-bottom: 25px;
+}
+
+.margin-top{
+    margin-top: 25px;
+}
+
+
+#principal{
+    height: 715px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 90px;
+}
+
+#div-bienvenida{
+    height: 250px;
+    background-color: rgba(179, 179, 179, 0.774);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#JyF{
+    height: 25px;
+    width: 100%;
+    background-color: #23393d ;
+    border-bottom: 1px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.boton-portada{
+    padding: 15px 25px;
+}
+
+.boton-portada:hover{
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 500px){
+    #principal{
+        font-size: 45px;
+    }
+    #div-bienvenida{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .letra-pequena{
+        font-size: 16px;
+    }
+}
